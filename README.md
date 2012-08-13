@@ -5,6 +5,6 @@
 
 这个程序同样产生了两个文件 _female.txt_ , _male,txt_ 给出了雌性和雄性不同时间点的分布的 _sigma_ 值。
 
-文件 _sexdiff.h_ 定义了函数的原型和全局变量，其中 *chr* 结构代表染色体。主函数** in main.cpp**,调用了读取参数值 *in parametres.txt* 的函数,并且把参数值写入 *resultats.txt* 文件，然后利用函数 *recursion* 进行模拟。文件 *parametres.txt* 中的参数必须以\* 开始，并且每行代表一个参数集合，模拟程序依次进行模拟。文件 *SelRec.cpp* 包含计算个体适合度和重组染色体的子函数。
+文件 _sexdiff.h_ 定义了函数的原型和全局变量，其中 *chr* 结构代表染色体。主函数**in main.cpp**,调用了读取参数值 *in parametres.txt* 的函数,并且把参数值写入 *resultats.txt* 文件，然后利用函数 *recursion* 进行模拟。文件 *parametres.txt* 中的参数必须以\* 开始，并且每行代表一个参数集合，模拟程序依次进行模拟。文件 *SelRec.cpp* 包含计算个体适合度和重组染色体的子函数。
 
 
